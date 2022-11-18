@@ -1,0 +1,56 @@
+#main{
+    #contents{
+        .ranking_cont{
+            display: flex;
+            .winner_cont{
+                width: 40%;
+                padding: 0 20px;
+                .album_art_cont{
+
+                    position: relative;
+                    img{
+                        width: 100%;
+                        border-radius: 15px;
+                        margin-bottom: 30px;
+                    }
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        background: #000;
+                        width: 8px;
+                        height: 31px;
+                        top: 12px;
+                        right: 25px;
+                        border-radius: 100px;
+                        transform: rotate(45deg);
+                    }
+                    .album_art_shadow{
+                        filter: blur(52px);
+                        position: absolute;
+                        bottom: -20px;
+                        left: 0;
+                        height: 86px;
+                    }
+                    
+                }
+                h4{
+                    font-size: 50px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+                .artist{
+                    font-size: 16px;
+                    color: rgba(255, 255, 255, 0.488);
+                }
+                .song_title{
+                    font-weight: bold;
+                    font-size: 38px;
+                }
+            }
+            .list_cont{
+                width: 60%;
+                padding: 10px;
+            }
+        }
+    }
+}
