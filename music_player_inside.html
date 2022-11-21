@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>react</title>
+    <link rel="stylesheet" href="assets/scss/assets/css/style.min.css" />
+  </head>
+  <body>
+    <header id="header">
+      <aside id="aside">
+        <a class="logo" href="">
+          <h1 class="ir">logo</h1>
+        </a>
+        <div>
+          <a href="#">
+            <img src="assets/img/broadcast.png" alt="" />
+            <span>홈</span>
+          </a>
+          <a href="#">
+            <img src="assets/img/play.png" alt="" />
+            <span>장르</span>
+          </a>
+          <a href="#">
+            <img src="assets/img/rss.png" alt="" />
+            <span>FAVORITE</span>
+          </a>
+          <a href="#">
+            <img src="assets/img/align-text-top-one.png" alt="" />
+            <span>플레이리스트</span>
+          </a>
+          <a href="#">
+            <img src="assets/img/trophy.png" alt="" />
+            <span>POPULAR</span>
+          </a>
+          <a href="#">
+            <img src="assets/img/align-text-bottom.png" alt="" />
+            <span>DOWNLOAD</span>
+          </a>
+          <a href="#">
+            <img src="assets/img/personal-collection.png" alt="" />
+            <span>아티스트</span>
+          </a>
+          <a href="#">
+            <img src="assets/img/record.png" alt="" />
+            <span>Music Video</span>
+          </a>
+        </div>
+      </aside>
+    </header>
+    <main id="main">
+      <section id="contents">
+        <div class="search">
+          <label htmlFor="searchInput ir">
+            <div class="glass"></div>
+          </label>
+          <input
+            type="text"
+            id="searchInput"
+            class="input__search"
+            placeholder="Please Insert Here"
+            title="검색"
+          />
+        </div>
+        <!-- <h2>Top 10</h2> -->
+        <div class="music_player_ctrl">
+          <img src="#" alt="">
+          <h2>Now Playing.</h2>
+          <div class="inner_album_art">
+            <img src="#" alt="">
+          </div>
+          <p>Joss Stone</p>
+          <h2>Merry Christmas Love</h2>
+          <div class="volumeCont">
+            <input type="range" id="volume-control" min="0" max="10" value="5" step="0.1">							
+          </div> 
+          <div class="timer">
+            <span class="current">0:00</span>
+            <span class="duration">4:00</span>
+          </div>
+          <div class="control">
+            <i title="전체 반복" class="repeat" id="control-repeat"></i>
+            <i title="이전곡 재생" class="prev" id="control-prev"></i>
+            <i title="재생" class="play" id="control-play"></i>
+            <i title="다음곡 재생" class="next" id="control-next"></i>
+            <i title="재생 목록" class="list" id="control-list"></i>
+          </div>
+        </div>
+        <div class="music_player_lyric">
+          <div class="lyric_inner">
+            "Have Yourself A Merry Little Christmas"(originally by Judy Garland)<br><br>
+
+            Have yourself a merry little Christmas<br><br>
+
+            Let your heart be light<br><br>
+
+            From now on our troubles will be out of sight<br><br>
+
+            Have yourself a merry little Christmas<br><br>
+
+            Make the Yuletide gay<br><br>
+
+            From now on our troubles will be miles away<br><br>
+
+            Here we are as in olden days<br><br>
+
+            Happy golden days of yore<br><br>
+
+            Faithful friends who are dear to us<br><br>
+
+            Gather near to us once more<br><br>
+
+            Through the years we all will be together
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
